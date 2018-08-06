@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Eda.Integrations.Delivery.SpsrExpress</AssemblyName>
+    <RootNamespace>Eda.Integrations.Delivery.SpsrExpress</RootNamespace>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Eda.Integrations.Delivery.Contracts\Eda.Integrations.Delivery.Contracts.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Requests\**" />
+    <Compile Remove="NamedObjectBase.cs" />
+    <Compile Remove="SpsrExpressAddress.cs" />
+    <Compile Remove="SpsrExpressCity.cs" />
+    <Compile Remove="SpsrExpressContact.cs" />
+    <Compile Remove="SpsrExpressCountry.cs" />
+    <Compile Remove="SpsrExpressFactory.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="Requests\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Requests\**" />
+  </ItemGroup>
+</Project>
