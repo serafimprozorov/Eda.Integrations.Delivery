@@ -35,6 +35,19 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
+      "Eda.Extensions.DependencyInjection/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1"
+        },
+        "compile": {
+          "bin/placeholder/Eda.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eda.Extensions.DependencyInjection.dll": {}
+        }
+      },
       "Eda.Integrations.Delivery.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
@@ -43,6 +56,19 @@
         },
         "runtime": {
           "bin/placeholder/Eda.Integrations.Delivery.Contracts.dll": {}
+        }
+      },
+      "Eda.Integrations.Delivery.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "Eda.Integrations.Delivery.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Eda.Integrations.Delivery.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Eda.Integrations.Delivery.Core.dll": {}
         }
       }
     }
@@ -200,16 +226,27 @@
         "netstandard.library.nuspec"
       ]
     },
+    "Eda.Extensions.DependencyInjection/1.0.0": {
+      "type": "project",
+      "path": "../Eda.Extensions.DependencyInjection/Eda.Extensions.DependencyInjection.csproj",
+      "msbuildProject": "../Eda.Extensions.DependencyInjection/Eda.Extensions.DependencyInjection.csproj"
+    },
     "Eda.Integrations.Delivery.Contracts/1.0.0": {
       "type": "project",
       "path": "../Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj",
       "msbuildProject": "../Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj"
+    },
+    "Eda.Integrations.Delivery.Core/1.0.0": {
+      "type": "project",
+      "path": "../Eda.Integrations.Delivery.Core/Eda.Integrations.Delivery.Core.csproj",
+      "msbuildProject": "../Eda.Integrations.Delivery.Core/Eda.Integrations.Delivery.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.0": [
+      "Eda.Extensions.DependencyInjection >= 1.0.0",
       "Eda.Integrations.Delivery.Contracts >= 1.0.0",
-      "Microsoft.Extensions.DependencyInjection.Abstractions >= 2.1.1",
+      "Eda.Integrations.Delivery.Core >= 1.0.0",
       "NETStandard.Library >= 2.0.3"
     ]
   },
@@ -241,8 +278,14 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
+            "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Extensions.DependencyInjection/Eda.Extensions.DependencyInjection.csproj": {
+              "projectPath": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Extensions.DependencyInjection/Eda.Extensions.DependencyInjection.csproj"
+            },
             "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj": {
               "projectPath": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj"
+            },
+            "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Core/Eda.Integrations.Delivery.Core.csproj": {
+              "projectPath": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Core/Eda.Integrations.Delivery.Core.csproj"
             }
           }
         }
@@ -256,10 +299,6 @@
     "frameworks": {
       "netstandard2.0": {
         "dependencies": {
-          "Microsoft.Extensions.DependencyInjection.Abstractions": {
-            "target": "Package",
-            "version": "[2.1.1, )"
-          },
           "NETStandard.Library": {
             "suppressParent": "All",
             "target": "Package",

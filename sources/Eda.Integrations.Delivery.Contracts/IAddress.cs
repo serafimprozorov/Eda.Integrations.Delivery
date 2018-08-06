@@ -1,4 +1,4 @@
-﻿namespace Eda.Integrations.Delivery.Contracts
+﻿namespace Eda.Integrations.Delivery
 {
     /// <inheritdoc cref="IGeography" />
     /// <summary>
@@ -6,19 +6,10 @@
     /// </summary>
     public interface IAddress : IGeography, IObject
     {
-        #region Properties
-        
         /// <summary>
-        /// Gets the country.
+        /// Gets the postal code.
         /// </summary>
-        ICountry Country { get; }
-        
-        
-        /// <summary>
-        /// Gets the city.
-        /// </summary>
-        ICity City { get; }
-
+        string PostalCode { get; }
         
         /// <summary>
         /// Gets the street.
@@ -42,7 +33,5 @@
         /// Gets the note.
         /// </summary>
         string Note { get; }
-        
-        #endregion
     }
 }

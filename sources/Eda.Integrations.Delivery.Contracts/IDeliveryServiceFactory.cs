@@ -1,9 +1,8 @@
 ﻿using System.Collections.Generic;
 using System.Globalization;
-using Eda.Integrations.Delivery.Contracts;
 
 
-namespace Eda.Integrations.Delivery.DependencyInjection
+namespace Eda.Integrations.Delivery
 {
     public interface IDeliveryServiceFactory
     {
@@ -27,8 +26,6 @@ namespace Eda.Integrations.Delivery.DependencyInjection
 
         IParcel NewParcel(decimal weight, object parcelType);
 
-        IPickupPoint NewPickupPoint(object id, IAddress address, IWorkingHours workingHours);
-
-        IWorkingHours NewWorkingHours();
+        IPickPoint NewPickupPoint(object id, IAddress address, WorkingWeekSchedule schedule);
     }
 }

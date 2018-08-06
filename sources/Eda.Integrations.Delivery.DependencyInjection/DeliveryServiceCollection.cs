@@ -1,55 +1,51 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using Eda.Integrations.Delivery.Contracts;
+
+using Microsoft.Extensions.DependencyInjection;
+
 
 namespace Eda.Integrations.Delivery.DependencyInjection
 {
-    internal class DeliveryServiceCollection : IDeliveryServiceCollection, IDeliveryServiceProvider
+    /// <summary>
+    /// The collection of delivery services.
+    /// </summary>
+    public class DeliveryServiceCollection
     {
-        private readonly IDictionary<string, Type> _typeMap = new Dictionary<string, Type>();
-        private readonly IServiceProvider _serviceProvider;
-
-
-        public DeliveryServiceCollection(IServiceProvider serviceProvider) =>
-            _serviceProvider = serviceProvider;
         
-
-        #region IEnumerable
         
-        public IEnumerator<KeyValuePair<string, Type>> GetEnumerator() => _typeMap.GetEnumerator();
-
-        IEnumerator IEnumerable.GetEnumerator() => GetEnumerator();
+        
+        
+        #region Dependencies
+        
+        private readonly IServiceCollection _serviceCollections;
 
         #endregion
 
-        #region IDeliveryServiceCollection
-
-        public IDeliveryServiceCollection Clear()
-        {
-            _typeMap.Clear();
-            return this;
-        }
-
-        public IDeliveryServiceCollection AddService<TDeliveryService>(string systemName = null) where TDeliveryService : IDeliveryService
-        {
-            _typeMap[systemName ?? typeof(TDeliveryService).Name] = typeof(TDeliveryService);
-            return this;
-        }
+        #region Constructor
         
+        internal DeliveryServiceCollection(IServiceCollection serviceCollections) =>
+            _serviceCollections = serviceCollections;
+
         #endregion
-
-        #region IDeliveryServiceProvider
         
-        public IDeliveryService GetDeliveryService(string name)
+        #region Methods
+
+        /// <summary>
+        /// Adds the delivery service block.
+        /// </summary>
+        /// <typeparam name="TDeliveryServiceBlock">The block type.</typeparam>
+        public DeliveryServiceCollection AddService<TDeliveryServiceBlock>()
+            where TDeliveryServiceBlock : DeliveryServiceApplicationBlock =>
+            AddService(Activator.CreateInstance<TDeliveryServiceBlock>());
+
+
+        /// <summary>
+        /// Adds the <paramref name="block"/>.
+        /// </summary>
+        /// <param name="block">The delivery service block.</param>
+        public DeliveryServiceCollection AddService(DeliveryServiceApplicationBlock block)
         {
-            if (!_typeMap.TryGetValue(name, out var type))
-                throw new Exception();
-
-            if (!(_serviceProvider.GetService(type) is IDeliveryService instance))
-                throw new Exception();
-
-            return instance;
+            block.AddTo(_serviceCollections);
+            return this;
         }
         
         #endregion

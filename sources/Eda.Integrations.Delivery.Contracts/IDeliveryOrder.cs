@@ -1,4 +1,4 @@
-﻿namespace Eda.Integrations.Delivery.Contracts
+﻿namespace Eda.Integrations.Delivery
 {
     /// <inheritdoc />
     /// <summary>
@@ -6,13 +6,9 @@
     /// </summary>
     public interface IDeliveryOrder : IObject
     {
-        #region Properties
-        
         /// <summary>
         /// Gets the delivery.
         /// </summary>
         IDelivery Delivery { get; }
-        
-        #endregion
     }
 }

@@ -1,12 +1,10 @@
-﻿namespace Eda.Integrations.Delivery.Contracts
+﻿namespace Eda.Integrations.Delivery
 {
     /// <summary>
     /// The data contract for delivery information.
     /// </summary>
     public interface IDeliveryInformation
     {
-        #region Properties
-        
         /// <summary>
         /// Gets the delivery request.
         /// </summary>
@@ -18,6 +16,9 @@
         /// </summary>
         decimal Cost { get; }
         
-        #endregion
+        /// <summary>
+        /// Gets the currency.
+        /// </summary>
+        object Currency { get; }
     }
 }

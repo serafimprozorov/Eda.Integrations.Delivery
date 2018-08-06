@@ -15,8 +15,14 @@
     "frameworks": {
       "netstandard2.0": {
         "projectReferences": {
+          "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Extensions.DependencyInjection/Eda.Extensions.DependencyInjection.csproj": {
+            "projectPath": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Extensions.DependencyInjection/Eda.Extensions.DependencyInjection.csproj"
+          },
           "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj": {
             "projectPath": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj"
+          },
+          "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Core/Eda.Integrations.Delivery.Core.csproj": {
+            "projectPath": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Core/Eda.Integrations.Delivery.Core.csproj"
           }
         }
       }
@@ -30,10 +36,6 @@
   "frameworks": {
     "netstandard2.0": {
       "dependencies": {
-        "Microsoft.Extensions.DependencyInjection.Abstractions": {
-          "target": "Package",
-          "version": "[2.1.1, )"
-        },
         "NETStandard.Library": {
           "suppressParent": "All",
           "target": "Package",

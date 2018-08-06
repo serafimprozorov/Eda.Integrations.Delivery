@@ -1,7 +1,7 @@
 ﻿using System;
 
 
-namespace Eda.Integrations.Delivery.Contracts
+namespace Eda.Integrations.Delivery
 {
     /// <inheritdoc />
     /// <summary>

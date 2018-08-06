@@ -1,7 +1,7 @@
 ﻿using System.Globalization;
 
 
-namespace Eda.Integrations.Delivery.Contracts
+namespace Eda.Integrations.Delivery
 {
     /// <inheritdoc />
     /// <summary>
@@ -9,8 +9,6 @@ namespace Eda.Integrations.Delivery.Contracts
     /// </summary>
     public interface ICountry : INamedObject
     {
-        #region Properties
-        
         /// <summary>
         /// Gets the country culture.
         /// </summary>
@@ -22,7 +20,5 @@ namespace Eda.Integrations.Delivery.Contracts
         /// Not used now.
         /// </summary>
         object Currency { get; }
-        
-        #endregion
     }
 }

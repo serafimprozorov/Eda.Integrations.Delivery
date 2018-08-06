@@ -1,4 +1,4 @@
-﻿namespace Eda.Integrations.Delivery.Contracts
+﻿namespace Eda.Integrations.Delivery
 {
     /// <summary>
     /// The data contract for geography objects.
@@ -9,6 +9,7 @@
         /// Gets the latitude.
         /// </summary>
         double Latitude { get; }
+        
         
         /// <summary>
         /// Gets the longitude.

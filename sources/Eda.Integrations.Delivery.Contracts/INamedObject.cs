@@ -1,8 +1,9 @@
 ﻿using System.Globalization;
 
 
-namespace Eda.Integrations.Delivery.Contracts
+namespace Eda.Integrations.Delivery
 {
+    /// <inheritdoc />
     /// <summary>
     /// The contract for named object.
     /// </summary>

@@ -1,8 +1,7 @@
-﻿namespace Eda.Integrations.Delivery.Contracts
+﻿namespace Eda.Integrations.Delivery
 {
     /// <summary>
-    /// The data contract for object.
-    /// It just has id.
+    /// The data contract for delivery service domain object.
     /// </summary>
     public interface IObject
     {

@@ -1,11 +1,8 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <LangVersion>7.2</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Eda.Extensions.DependencyInjection\Eda.Extensions.DependencyInjection.csproj" />
     <ProjectReference Include="..\Eda.Integrations.Delivery.Contracts\Eda.Integrations.Delivery.Contracts.csproj" />
-    <ProjectReference Include="..\Eda.Integrations.Delivery.Core\Eda.Integrations.Delivery.Core.csproj" />
   </ItemGroup>
 </Project>

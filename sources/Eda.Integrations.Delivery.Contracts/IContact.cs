@@ -1,12 +1,10 @@
-﻿namespace Eda.Integrations.Delivery.Contracts
+﻿namespace Eda.Integrations.Delivery
 {
     /// <summary>
     /// The data contract for contact.
     /// </summary>
     public interface IContact
     {
-        #region Properties
-        
         /// <summary>
         /// Gets the name.
         /// </summary>
@@ -18,6 +16,10 @@
         /// </summary>
         string Phone { get; }
         
-        #endregion
+        
+        /// <summary>
+        /// Gets the email.
+        /// </summary>
+        string Email { get; }
     }
 }

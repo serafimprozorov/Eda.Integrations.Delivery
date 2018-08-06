@@ -1,32 +1,37 @@
-﻿namespace Eda.Integrations.Delivery.Contracts
+﻿namespace Eda.Integrations.Delivery
 {
     /// <summary>
     /// The data contract for the delivery request.
     /// </summary>
     public interface IDeliveryRequest
     {
-        #region Properties
-        
         /// <summary>
         /// Gets the source address.
         /// </summary>
         IAddress SourceAddress { get; }
+        
         
         /// <summary>
         /// Gets the destination address.
         /// </summary>
         IAddress DestinationAddress { get; }
         
+        
         /// <summary>
         /// Gets the delivery type.
         /// </summary>
-        object DeliveryType { get; }
+        string DeliveryType { get; }
+        
         
         /// <summary>
         /// Gets the parcel information.
         /// </summary>
         IParcel Parcel { get; }
         
-        #endregion
+        
+        /// <summary>
+        /// Gets the currency.
+        /// </summary>
+        object Currency { get; }
     }
 }
