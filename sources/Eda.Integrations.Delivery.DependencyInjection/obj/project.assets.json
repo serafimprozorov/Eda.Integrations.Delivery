@@ -220,11 +220,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.DependencyInjection/Eda.Integrations.Delivery.DependencyInjection.csproj",
+      "projectUniqueName": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.DependencyInjection/Eda.Integrations.Delivery.DependencyInjection.csproj",
       "projectName": "Eda.Integrations.Delivery.DependencyInjection",
-      "projectPath": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.DependencyInjection/Eda.Integrations.Delivery.DependencyInjection.csproj",
+      "projectPath": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.DependencyInjection/Eda.Integrations.Delivery.DependencyInjection.csproj",
       "packagesPath": "/Users/albaster/.nuget/packages/",
-      "outputPath": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.DependencyInjection/obj/",
+      "outputPath": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.DependencyInjection/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -241,8 +241,8 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj": {
-              "projectPath": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj"
+            "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj": {
+              "projectPath": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj"
             }
           }
         }

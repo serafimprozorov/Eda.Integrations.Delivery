@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.IntegrationsDelivery.Spsr/Eda.IntegrationsDelivery.Spsr.csproj",
+    "projectUniqueName": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.IntegrationsDelivery.Spsr/Eda.IntegrationsDelivery.Spsr.csproj",
     "projectName": "Eda.IntegrationsDelivery.Spsr",
-    "projectPath": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.IntegrationsDelivery.Spsr/Eda.IntegrationsDelivery.Spsr.csproj",
-    "outputPath": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.IntegrationsDelivery.Spsr/obj/",
+    "projectPath": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.IntegrationsDelivery.Spsr/Eda.IntegrationsDelivery.Spsr.csproj",
+    "outputPath": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.IntegrationsDelivery.Spsr/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -15,11 +15,11 @@
     "frameworks": {
       "netstandard2.0": {
         "projectReferences": {
-          "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.ApiClient/Eda.Integrations.ApiClient.csproj": {
-            "projectPath": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.ApiClient/Eda.Integrations.ApiClient.csproj"
+          "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.ApiClient/Eda.Integrations.ApiClient.csproj": {
+            "projectPath": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.ApiClient/Eda.Integrations.ApiClient.csproj"
           },
-          "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj": {
-            "projectPath": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj"
+          "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj": {
+            "projectPath": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj"
           }
         }
       }

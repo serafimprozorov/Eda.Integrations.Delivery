@@ -6,8 +6,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eda.Integrations.Delivery.D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eda.IntegrationsDelivery.Spsr", "sources\Eda.IntegrationsDelivery.Spsr\Eda.IntegrationsDelivery.Spsr.csproj", "{A35839C2-2AC3-4531-BBBE-673EB22D21FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eda.Integrations.ApiClient", "sources\Eda.Integrations.ApiClient\Eda.Integrations.ApiClient.csproj", "{10C25BC4-9688-4B72-B582-5186AA049E65}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +24,5 @@ Global
 		{A35839C2-2AC3-4531-BBBE-673EB22D21FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A35839C2-2AC3-4531-BBBE-673EB22D21FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A35839C2-2AC3-4531-BBBE-673EB22D21FC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{10C25BC4-9688-4B72-B582-5186AA049E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{10C25BC4-9688-4B72-B582-5186AA049E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{10C25BC4-9688-4B72-B582-5186AA049E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{10C25BC4-9688-4B72-B582-5186AA049E65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj",
+    "projectUniqueName": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj",
     "projectName": "Eda.Integrations.Delivery.Contracts",
-    "projectPath": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj",
-    "outputPath": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/obj/",
+    "projectPath": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj",
+    "outputPath": "/Users/albaster/dev/lourian/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/obj/",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
