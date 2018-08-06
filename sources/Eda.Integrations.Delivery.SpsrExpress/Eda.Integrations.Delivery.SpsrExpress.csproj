@@ -13,7 +13,6 @@
     <Compile Remove="NamedObjectBase.cs" />
     <Compile Remove="SpsrExpressAddress.cs" />
     <Compile Remove="SpsrExpressCity.cs" />
-    <Compile Remove="SpsrExpressContact.cs" />
     <Compile Remove="SpsrExpressCountry.cs" />
     <Compile Remove="SpsrExpressFactory.cs" />
   </ItemGroup>

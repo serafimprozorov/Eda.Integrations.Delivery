@@ -10,7 +10,7 @@ namespace Eda.Integrations.Delivery.SpsrExpress
 
         public Task<IDeliveryInformation> GetDeliveryInformation(IDeliveryRequest request, CancellationToken ct = default)
         {
-            throw new System.NotImplementedException();
+            if (!(request is ))
         }
 
         public Task<IDelivery> CreateDelivery(IDeliveryRequest request, CancellationToken ct = default)
