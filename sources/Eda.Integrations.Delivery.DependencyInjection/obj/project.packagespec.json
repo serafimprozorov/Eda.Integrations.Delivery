@@ -1,0 +1,51 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.DependencyInjection/Eda.Integrations.Delivery.DependencyInjection.csproj",
+    "projectName": "Eda.Integrations.Delivery.DependencyInjection",
+    "projectPath": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.DependencyInjection/Eda.Integrations.Delivery.DependencyInjection.csproj",
+    "outputPath": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.DependencyInjection/obj/",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netstandard2.0"
+    ],
+    "frameworks": {
+      "netstandard2.0": {
+        "projectReferences": {
+          "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj": {
+            "projectPath": "/Users/albaster/dev/psicorps/Eda.Integrations.Delivery/sources/Eda.Integrations.Delivery.Contracts/Eda.Integrations.Delivery.Contracts.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netstandard2.0": {
+      "dependencies": {
+        "Microsoft.Extensions.DependencyInjection.Abstractions": {
+          "target": "Package",
+          "version": "[2.1.1, )"
+        },
+        "NETStandard.Library": {
+          "suppressParent": "All",
+          "target": "Package",
+          "version": "[2.0.3, )",
+          "autoReferenced": true
+        }
+      },
+      "imports": [
+        "net461"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

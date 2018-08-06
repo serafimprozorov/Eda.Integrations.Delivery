@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eda.Integrations.Delivery.Contracts", "sources\Eda.Integrations.Delivery.Contracts\Eda.Integrations.Delivery.Contracts.csproj", "{485A4871-7BCA-4DB5-B1EB-7C1C9A480BCA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eda.Integrations.Delivery.DependencyInjection", "sources\Eda.Integrations.Delivery.DependencyInjection\Eda.Integrations.Delivery.DependencyInjection.csproj", "{7453188F-BA53-4F97-BAD9-1FBABA4F9E1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eda.IntegrationsDelivery.Spsr", "sources\Eda.IntegrationsDelivery.Spsr\Eda.IntegrationsDelivery.Spsr.csproj", "{A35839C2-2AC3-4531-BBBE-673EB22D21FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eda.Integrations.ApiClient", "sources\Eda.Integrations.ApiClient\Eda.Integrations.ApiClient.csproj", "{10C25BC4-9688-4B72-B582-5186AA049E65}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{485A4871-7BCA-4DB5-B1EB-7C1C9A480BCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{485A4871-7BCA-4DB5-B1EB-7C1C9A480BCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{485A4871-7BCA-4DB5-B1EB-7C1C9A480BCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{485A4871-7BCA-4DB5-B1EB-7C1C9A480BCA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7453188F-BA53-4F97-BAD9-1FBABA4F9E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7453188F-BA53-4F97-BAD9-1FBABA4F9E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7453188F-BA53-4F97-BAD9-1FBABA4F9E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7453188F-BA53-4F97-BAD9-1FBABA4F9E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A35839C2-2AC3-4531-BBBE-673EB22D21FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A35839C2-2AC3-4531-BBBE-673EB22D21FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A35839C2-2AC3-4531-BBBE-673EB22D21FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A35839C2-2AC3-4531-BBBE-673EB22D21FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10C25BC4-9688-4B72-B582-5186AA049E65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10C25BC4-9688-4B72-B582-5186AA049E65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10C25BC4-9688-4B72-B582-5186AA049E65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10C25BC4-9688-4B72-B582-5186AA049E65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
