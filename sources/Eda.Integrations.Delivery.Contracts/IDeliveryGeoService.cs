@@ -34,7 +34,7 @@ namespace Eda.Integrations.Delivery
         
         
         /// <summary>
-        /// Gets available cities in the <see cref="region"/>. 
+        /// Gets available cities in the <paramref name="region"/>. 
         /// </summary>
         /// <param name="region">The region.</param>
         /// <param name="start">The beginning of the name.</param>
@@ -47,7 +47,7 @@ namespace Eda.Integrations.Delivery
 
         
         /// <summary>
-        /// Gets available streets in the <see cref="city"/>.
+        /// Gets available streets in the <paramref name="city"/>.
         /// </summary>
         /// <param name="city">The city.</param>
         /// <param name="start">The beginning of the name.</param>

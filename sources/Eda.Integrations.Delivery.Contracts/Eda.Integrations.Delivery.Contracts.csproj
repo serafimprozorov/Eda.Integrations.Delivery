@@ -2,6 +2,18 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <LangVersion>latest</LangVersion>
+    <OutputPath>../../bin/$(Configuration)/$(TargetFramework)</OutputPath>
+    <DocumentationFile>$(OutputPath)/$(AssemblyName).xml</DocumentationFile>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <RootNamespace>Eda.Integrations.Delivery</RootNamespace>
+    <PackageId>Eda.Integrations.Delivery.Contracts</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>Serafim Prozorov</Authors>
+    <Description>This package is a contract library for delivery services integration.</Description>
+    <Copyright>2018, Serafim Prozorov</Copyright>
+    <PackageProjectUrl>https://serafimprozorov.github.io/Eda.Integrations.Delivery</PackageProjectUrl>
+    <PackageLicenseUrl>https://serafimprozorov.github.io/Eda.Integrations.Delivery/LICENSE.md</PackageLicenseUrl>
+    <PackageIconUrl>https://serafimprozorov.github.io/Eda.Integrations.Delivery/logo.png</PackageIconUrl>
+    <RepositoryUrl>https://serafimprozorov.github.com/Eda.Integrations.Delivery</RepositoryUrl>
   </PropertyGroup>
 </Project>
